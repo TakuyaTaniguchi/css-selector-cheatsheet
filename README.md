@@ -24,7 +24,9 @@ body div{
 
 ```
 
-
+### :not selector usecase
+https://codepen.io/Rin_T_T/pen/ZEERzbe  
+**main**
 
 ``` SCSS
 .button{
