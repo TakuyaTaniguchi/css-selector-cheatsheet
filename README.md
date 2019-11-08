@@ -23,3 +23,19 @@ body div{
 }
 
 ```
+
+
+
+``` SCSS
+.button{
+    foo: bar;//base
+    &.-mod-active{
+        color: red;//active
+    }
+     &:not(.-mod-active){
+        color: gray;//inactive
+    }
+    
+}
+
+```
