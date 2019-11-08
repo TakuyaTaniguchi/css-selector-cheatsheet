@@ -41,3 +41,29 @@ https://codepen.io/Rin_T_T/pen/ZEERzbe
 }
 
 ```
+
+https://codepen.io/Rin_T_T/pen/ZEERzbe  
+**main**
+
+``` SCSS
+.not{
+  ul{
+    li{
+      & + li {
+        margin-top: 15px;
+      } 
+    }
+  }
+}
+
+.good{
+  ul{
+    li{
+      &:not(:first-of-type){
+        margin-top: 15px;
+      } 
+    }
+  }
+}
+
+```
